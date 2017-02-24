@@ -1,0 +1,258 @@
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: number in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 67
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: hide_empty in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 68
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: ids in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 69
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: number in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 86
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: hide_empty in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 87
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: ids in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 88
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: number in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 103
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: hide_empty in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 104
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: ids in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 105
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: number in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 103
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: hide_empty in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 104
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: ids in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 105
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: number in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 103
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: hide_empty in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 104
+[29-Aug-2016 12:20:28 UTC] PHP Notice:  Undefined variable: ids in /home6/nisbeta1/public_html/astha/wp-content/themes/astha/woocommerce/archive-product.php on line 105
+[31-Aug-2016 10:39:57 UTC] WordPress database error Table 'nisbeta1_astha.astha_search_locationmaster' doesn't exist for query SELECT distinct * FROM astha_search_locationmaster made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/index.php')
+[31-Aug-2016 11:04:11 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and asm.category_id=Type' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type= and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[01-Sep-2016 13:07:57 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and asm.category_id=Type' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type= and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[01-Sep-2016 13:08:20 UTC] WordPress database error Column 'Type' in where clause is ambiguous for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=1 and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[01-Sep-2016 13:08:39 UTC] WordPress database error Column 'Type' in where clause is ambiguous for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=1 and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[01-Sep-2016 13:21:36 UTC] WordPress database error Column 'Type' in where clause is ambiguous for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=1 and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[01-Sep-2016 13:23:30 UTC] WordPress database error Column 'Type' in where clause is ambiguous for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=1 and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[01-Sep-2016 13:23:45 UTC] WordPress database error Column 'Type' in where clause is ambiguous for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=1 and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[01-Sep-2016 13:36:49 UTC] WordPress database error Column 'Type' in where clause is ambiguous for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=1 and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[01-Sep-2016 13:37:39 UTC] WordPress database error Column 'Type' in where clause is ambiguous for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=1 and asm.category_id=Type  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[08-Sep-2016 07:38:30 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[07-Nov-2016 19:07:36 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[17-Nov-2016 17:36:00 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and asl.location_id=1' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type= and asl.location_id=1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[21-Nov-2016 11:16:58 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and asl.location_id=1' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type= and asl.location_id=1 made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[28-Nov-2016 11:23:28 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home3/asthamed/public_html/wp-includes/class-wp-xmlrpc-server.php on line 596
+[07-Dec-2016 06:34:54 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[07-Dec-2016 06:36:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[07-Dec-2016 06:39:00 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 15 for query SELECT asm.*,asl.master_data_id,asl.location_id,asl.id as asl_id,aslm.location_name,ascat.category_name as category_name FROM
+
+        astha_search_masterdata asm 
+
+	LEFT JOIN astha_search_category ascat
+    
+    	ON asm.category_id = ascat.id
+        
+	LEFT JOIN astha_search_location asl 
+    
+    	ON asm.id = asl.master_data_id
+        
+	LEFT JOIN astha_search_locationmaster aslm
+    
+    	ON aslm.id = asl.location_id where asm.type=  made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/astha/page-search.php')
+[24-Dec-2016 18:14:26 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home3/asthamed/public_html/wp-includes/class-wp-xmlrpc-server.php on line 596

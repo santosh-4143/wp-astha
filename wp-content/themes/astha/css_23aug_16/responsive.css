@@ -1,0 +1,1114 @@
+
+
+@media screen and (max-width: 320px)
+{
+	
+	/*-------------------Home_page-------------*/
+	.col_lg-3.col-md-3.col-sm-3.col-xs-12.p_1 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.phone {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.col_lg-3.col-md-3.col-sm-3.col-xs-12.p_2 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.col_lg-4.col-md-4.col-sm-4.col-xs-12.p_3 {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.phone_1 {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.col_lg-2.col-md-2.col-sm-2.col-xs-12.p_4 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.search_area {
+    float: left;
+    height: auto;
+    padding: 5px 0;
+    position: relative;
+    text-align: right;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+.search_box {
+    bottom: 0;
+    display: none;
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    width: 85%;
+    z-index: 9;
+}
+.logo_area {
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    text-align: left;
+    width: 100%;
+}
+.logo_area img {
+    text-align: left;
+    width: 100%;
+}
+.navbar-toggle {
+    background-color: #114d9d;
+    margin-bottom: -28px;
+    margin-right: 15px;
+    margin-top: 19px;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+nav ul {
+    text-align: left;
+}
+nav li {
+    display: block;
+    padding: 6px 0;
+}
+.logo_area_1 {
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    text-align: right;
+    width: 100%;
+}
+.logo_area_1 h3 {
+    font-size: 24px;
+    padding: 0;
+    position: relative;
+}
+.logo_area_1 h3::after {
+    left: 20px;
+}
+.carousel-inner {
+    height: auto;
+}
+.advance_search {
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.ad_search_one {
+    background-color: rgba(0, 162, 228, 0.9);
+    border-radius: 3px;
+    box-shadow: -1px 9px 7px -8px rgba(0, 0, 0, 0.75);
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+.ad_search_main {
+    height: 274px;
+    padding: 15px;
+}
+.ad_heading {
+    float: left;
+    height: auto;
+    padding: 4px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+.advance_search {
+    top: 115%;
+}
+.ad_heading > h3 {
+    color: #fff;
+    font-size: 12px;
+}
+.add_three {
+    background-color: #fff;
+    border-radius: 3px;
+    float: left;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+.category {
+    width: 100%;
+	border-right:none;
+}
+.category_1 {
+    width: 100%;
+	border-right:none;
+}
+.category_2 {
+    width: 100%;
+	border-right:none;
+}
+.category_3 {
+    width: 100%;
+	border-right:none;
+}
+.btn.btn-primary.su_1 {
+    padding: 0 94px;
+}
+
+.banner_logo {
+    top: 30%;
+}
+.lgo_icon img {
+    float: none;
+    height: auto;
+    width: 60%;
+}
+.our_service {
+    padding: 306px 0 0;
+}
+.box_1 {
+    float: left;
+    height: auto;
+    padding: 0 0 30px;
+    width: 100%;
+}
+.our_instrument {
+    padding: 30px 0;
+}
+.media-left.media-middle {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.media-body > h6::before {
+    left: 0;
+    top: 0;
+
+}
+.media-body > h6 {
+    color: #a1a1a1;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 3px;
+    position: relative;
+    text-align: justify;
+}
+.owner_head {
+    padding: 10px 6px;
+    width: 100%;
+}
+.media-body > h6::after {
+    right: 2%;
+    top: 228px;
+}
+.container_middle > h6 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer_abt {
+    padding: 0 0 22px;
+}
+
+/*------------------End Home Page-----------*/
+
+/*-------------Start About_us_page-----------*/
+.left_about {
+    height: 330px;
+}
+.abt_text {
+    float: left;
+    height: auto;
+    line-height: 313px;
+    padding: 80px 45px;
+    text-align: center;
+    width: 100%;
+}
+.abt_text > h4::after {
+    right: -32px;
+    top: 132px;
+    width: 56px;
+}
+
+/*------------End About Us page------------*/
+
+/*----------------start Contact Page-------------*/
+iframe.frame {
+    border: medium none;
+    float: left;
+    height: 200px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 100%;
+}
+/*----------------End Contact PAge---------------*/
+	
+}
+
+
+
+
+
+@media screen and (min-width: 321px) and (max-width: 480px)
+{
+	
+	/*-----------------------Start Home Page---------------*/
+	.col_lg-3.col-md-3.col-sm-3.col-xs-12.p_1 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.phone {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.col_lg-3.col-md-3.col-sm-3.col-xs-12.p_2 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.col_lg-4.col-md-4.col-sm-4.col-xs-12.p_3 {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.phone_1 {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.col_lg-2.col-md-2.col-sm-2.col-xs-12.p_4 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.search_area {
+    float: left;
+    height: auto;
+    padding: 5px 0;
+    position: relative;
+    text-align: right;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+.search_box {
+    bottom: 0;
+    display: none;
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    width: 85%;
+    z-index: 9;
+}
+.logo_area {
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    text-align: left;
+    width: 100%;
+}
+.logo_area img {
+    text-align: left;
+    width: 100%;
+}
+.navbar-toggle {
+    background-color: #114d9d;
+    margin-bottom: -28px;
+    margin-right: 15px;
+    margin-top: 19px;
+}
+.carousel-inner {
+    height: auto;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+nav ul {
+    text-align: left;
+}
+nav li {
+    display: block;
+    padding: 6px 0;
+}
+.logo_area_1 {
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    text-align: right;
+    width: 100%;
+}
+.logo_area_1 h3 {
+    font-size: 24px;
+    padding: 0;
+    position: relative;
+}
+.logo_area_1 h3::after {
+    left: 20px;
+}
+.advance_search {
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.ad_search_one {
+    background-color: rgba(0, 162, 228, 0.9);
+    border-radius: 3px;
+    box-shadow: -1px 9px 7px -8px rgba(0, 0, 0, 0.75);
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+.ad_search_main {
+    height: 274px;
+    padding: 15px;
+}
+.ad_heading {
+    float: left;
+    height: auto;
+    padding: 4px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+.advance_search {
+    top: 115%;
+}
+.ad_heading > h3 {
+    color: #fff;
+    font-size: 12px;
+}
+.add_three {
+    background-color: #fff;
+    border-radius: 3px;
+    float: left;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+.category {
+    width: 100%;
+	border-right:none;
+}
+.category_1 {
+    width: 100%;
+	border-right:none;
+}
+.category_2 {
+    width: 100%;
+	border-right:none;
+}
+.category_3 {
+    width: 100%;
+	border-right:none;
+}
+.btn.btn-primary.su_1 {
+    padding: 0 94px;
+}
+
+.banner_logo {
+    top: 30%;
+}
+.lgo_icon img {
+    float: none;
+    height: auto;
+    width: 60%;
+}
+.our_service {
+    padding: 306px 0 0;
+}
+.box_1 {
+    float: left;
+    height: auto;
+    padding: 5px;
+    width: 100%;
+}
+.our_instrument {
+    padding: 30px 0;
+}
+.media-left.media-middle {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.media-body > h6::before {
+    left: 0;
+    top: 0;
+
+}
+.media-body > h6 {
+    color: #a1a1a1;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 3px;
+    position: relative;
+    text-align: justify;
+}
+.owner_head {
+    padding: 10px 6px;
+    width: 100%;
+}
+.media-body > h6::after {
+    right: 2%;
+    top: 228px;
+}
+.container_middle > h6 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer_abt {
+    padding: 0 0 22px;
+}
+
+/*-------------------End Home PAge-------------*/
+
+/*-------------Start About_us_page-----------*/
+.left_about {
+    height: 330px;
+}
+.abt_text {
+    float: left;
+    height: auto;
+    line-height: 313px;
+    padding: 80px 45px;
+    text-align: center;
+    width: 100%;
+}
+.abt_text > h4::after {
+    right: -32px;
+    top: 132px;
+    width: 56px;
+}
+.abt_text > h6 {
+    margin: 35% 0 0;
+}
+
+/*------------End About Us page------------*/
+
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 680px)
+{
+	/*--------------------Start Home PAge----------*/
+	.col_lg-3.col-md-3.col-sm-3.col-xs-12.p_1 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.phone {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.col_lg-3.col-md-3.col-sm-3.col-xs-12.p_2 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.col_lg-4.col-md-4.col-sm-4.col-xs-12.p_3 {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.phone_1 {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.col_lg-2.col-md-2.col-sm-2.col-xs-12.p_4 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.search_area {
+    float: left;
+    height: auto;
+    padding: 5px 0;
+    position: relative;
+    text-align: right;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+.search_box {
+    bottom: 0;
+    display: none;
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    width: 85%;
+    z-index: 9;
+}
+.logo_area {
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    text-align: left;
+    width: 100%;
+}
+.logo_area img {
+    text-align: center;
+    width: 100%;
+}
+.navbar-toggle {
+    background-color: #114d9d;
+    margin-bottom: -15px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.carousel-inner {
+    height: auto;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+nav ul {
+    text-align: left;
+}
+nav li {
+    display: block;
+    padding: 6px 0;
+}
+.logo_area_1 {
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+}
+.logo_area_1 h3 {
+    font-size: 24px;
+    padding: 0;
+    position: relative;
+}
+.logo_area_1 h3::after {
+    left: 10%;
+}
+.advance_search {
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.ad_search_one {
+    background-color: rgba(0, 162, 228, 0.9);
+    border-radius: 3px;
+    box-shadow: -1px 9px 7px -8px rgba(0, 0, 0, 0.75);
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+.ad_search_main {
+    height: 274px;
+    padding: 15px;
+}
+.ad_heading {
+    float: left;
+    height: auto;
+    padding: 4px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+.advance_search {
+    top: 115%;
+}
+.ad_heading > h3 {
+    color: #fff;
+    font-size: 12px;
+}
+.add_three {
+    background-color: #fff;
+    border-radius: 3px;
+    float: left;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+.category {
+    width: 100%;
+	border-right:none;
+}
+.category_1 {
+    width: 100%;
+	border-right:none;
+}
+.category_2 {
+    width: 100%;
+	border-right:none;
+}
+.category_3 {
+    width: 100%;
+	border-right:none;
+}
+.btn.btn-primary.su_1 {
+    padding: 0 94px;
+}
+
+.banner_logo {
+    top: 30%;
+}
+.lgo_icon img {
+    float: none;
+    height: auto;
+    width: 60%;
+}
+.our_service {
+    padding: 306px 0 0;
+}
+.box_1 {
+    float: left;
+    height: auto;
+    padding: 5px;
+    width: 100%;
+}
+.our_instrument {
+    padding: 30px 0;
+}
+.media-left.media-middle {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.media-body > h6::before {
+    left: 0;
+    top: 0;
+
+}
+.media-body > h6 {
+    color: #a1a1a1;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 3px;
+    position: relative;
+    text-align: justify;
+}
+.owner_head {
+    padding: 10px 6px;
+    width: 100%;
+}
+.media-body > h6::after {
+    right: 2%;
+    top: 228px;
+}
+.container_middle > h6 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer_abt {
+    padding: 0 0 22px;
+}
+/*-----------------------End Home PAge------------------*/
+
+/*-------------Start About_us_page-----------*/
+.left_about {
+    height: 330px;
+}
+.abt_text {
+    float: left;
+    height: auto;
+    line-height: 313px;
+    padding: 80px 45px;
+    text-align: center;
+    width: 100%;
+}
+.abt_text > h4::after {
+    right: -32px;
+    top: 132px;
+    width: 56px;
+}
+.abt_text > h6 {
+    margin: 35% 0 0;
+}
+.right_about img.img-responsive {
+    height: auto;
+    max-height: none;
+    width: 100%;
+	float:left;
+}
+
+/*------------End About Us page------------*/
+
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 767px)
+{
+/*---------------------Start Home PAge-----------------*/	
+.col_lg-3.col-md-3.col-sm-3.col-xs-12.p_1 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.phone {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.col_lg-3.col-md-3.col-sm-3.col-xs-12.p_2 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.col_lg-4.col-md-4.col-sm-4.col-xs-12.p_3 {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.phone_1 {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.col_lg-2.col-md-2.col-sm-2.col-xs-12.p_4 {
+    float: left;
+    height: auto;
+    width: 100%;
+}
+.search_area {
+    float: left;
+    height: auto;
+    padding: 5px 0;
+    position: relative;
+    text-align: right;
+    transition: all 0.3s ease-in-out 0s;
+    width: 100%;
+}
+.search_box {
+    bottom: 0;
+    display: none;
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    width: 85%;
+    z-index: 9;
+}
+.logo_area {
+    float: left;
+    height: auto;
+    padding: 0px 0;
+    text-align: left;
+    width: 100%;
+}
+.logo_area img {
+    text-align: left;
+    width: 40%;
+}
+.navbar-toggle {
+    background-color: #114d9d;
+    margin-bottom: 8px;
+    margin-right: 0;
+    margin-top: 45px;
+}
+.carousel-inner {
+    height: auto;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+nav ul {
+    text-align: left;
+}
+nav li {
+    display: block;
+    padding: 6px 0;
+}
+.logo_area_1 {
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+}
+.logo_area_1 h3 {
+    font-size: 24px;
+    padding: 0;
+    position: relative;
+}
+.logo_area_1 h3::after {
+    left: 10%;
+}
+.advance_search {
+    float: left;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.ad_search_one {
+    background-color: rgba(0, 162, 228, 0.9);
+    border-radius: 3px;
+    box-shadow: -1px 9px 7px -8px rgba(0, 0, 0, 0.75);
+    float: none;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+.ad_search_main {
+    height: 274px;
+    padding: 15px;
+}
+.ad_heading {
+    float: left;
+    height: auto;
+    padding: 4px 0 20px;
+    text-align: center;
+    width: 100%;
+}
+.advance_search {
+    top: 110%;
+}
+.ad_heading > h3 {
+    color: #fff;
+    font-size: 12px;
+}
+.add_three {
+    background-color: #fff;
+    border-radius: 3px;
+    float: left;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+.category {
+    width: 100%;
+	border-right:none;
+}
+.category_1 {
+    width: 100%;
+	border-right:none;
+}
+.category_2 {
+    width: 100%;
+	border-right:none;
+}
+.category_3 {
+    width: 100%;
+	border-right:none;
+}
+.btn.btn-primary.su_1 {
+    padding: 0 94px;
+}
+
+.banner_logo {
+    top: 30%;
+}
+.lgo_icon img {
+    float: none;
+    height: auto;
+    width: 60%;
+}
+.our_service {
+    padding: 306px 0 0;
+}
+.box_1 {
+    float: left;
+    height: auto;
+    padding: 5px;
+    width: 100%;
+}
+.our_instrument {
+    padding: 30px 0;
+}
+.media-left.media-middle {
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.media-body > h6::before {
+    left: 0;
+    top: 0;
+
+}
+.media-body > h6 {
+    color: #a1a1a1;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 3px;
+    position: relative;
+    text-align: justify;
+}
+.owner_head {
+    padding: 10px 6px;
+    width: 100%;
+}
+.media-body > h6::after {
+    right: 2%;
+    top: 228px;
+}
+.container_middle > h6 {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+.footer_abt {
+    padding: 0 0 22px;
+}
+
+/*--------------------------End Home PAge----------------*/
+
+/*-------------Start About_us_page-----------*/
+.left_about {
+    height: 330px;
+}
+.abt_text {
+    float: left;
+    height: auto;
+    line-height: 313px;
+    padding: 80px 45px;
+    text-align: center;
+    width: 100%;
+}
+.abt_text > h4::after {
+    right: -32px;
+    top: 132px;
+    width: 56px;
+}
+.abt_text > h6 {
+    margin: 35% 0 0;
+}
+.right_about img.img-responsive {
+    height: auto;
+    max-height: none;
+    width: 100%;
+	float:left;
+}
+
+/*------------End About Us page------------*/
+
+		
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+	/*----------------------Start Home PAge--------------*/
+	.phone_1 {
+    text-align: left;
+}
+.search_box {
+    bottom: 3px;
+    display: none;
+    float: left;
+    height: auto;
+    left: -33px;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+.logo_area_1 {
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    width: 100%;
+}
+.logo_area img {
+    margin: 0;
+    padding: 0;
+    width: 150%;
+}
+.carousel-inner
+{
+	height:auto;
+}
+.logo_area_1 h3::after {
+    left: 220px;
+}
+.logo_area_1 h3 {
+    text-align: right;
+}
+.banner_logo {
+    top: 12%;
+}
+.ad_search_one {
+    width: 650px;
+}
+.media-body > h6::after {
+    right: 11%;
+    top: 85px;
+}
+
+/*-------------------------End Home PAge------------------*/
+
+.left_about {
+    height: 308px;
+}
+.abt_text {
+    padding: 70px 54px;
+    text-align: center;
+    width: 100%;
+}
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+	
+	/*--------------------Start Home_pAge------------*/
+	.logo_area_1 {
+    text-align: right;
+}
+.logo_area img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.logo_area_1 h3::after {
+    left: 55%;
+}
+.carousel-inner {
+    height: auto;
+}
+/*----------------------End Home PAge-------------*/
+
+/*--------------Start About Page-------------*/
+.left_about {
+    height: 402px;
+}
+.right_about {
+    height: auto;
+    max-height: 460px;
+    width: auto;
+}
+.right_about img.img-responsive {
+    height: auto;
+    max-height: 435px;
+    width: 100%;
+}
+/*--------------End About Page-------------*/
+}

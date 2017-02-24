@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700";
+.jquery-accordion-menu, .jquery-accordion-menu * {
+    box-sizing: border-box;
+    outline: 0 none;
+}
+.jquery-accordion-menu {
+    float: left;
+	width:100%;
+	padding:0px;
+	margin:0px;
+    position: relative;
+}
+.jquery-accordion-menu .jquery-accordion-menu-footer, .jquery-accordion-menu .jquery-accordion-menu-header {
+    background: #414956 none repeat scroll 0 0;
+    color: #f0f0f0;
+    float: left;
+    font-weight: 600;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 22px;
+    width: 100%;
+}
+.jquery-accordion-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.jquery-accordion-menu ul li {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.jquery-accordion-menu ul li a {
+    background:none;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+	font-family: 'latoheavy';
+    overflow: hidden;
+    padding: 10px 0px;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.2s linear 0s, background 0.2s linear 0s;
+    white-space: nowrap;
+    width: 100%;
+}
+.jquery-accordion-menu > ul > li.active > a, .jquery-accordion-menu > ul > li:hover > a {
+    background: none;
+    color: #f8f8f8;
+}
+.jquery-accordion-menu > ul > li > a {
+    border-bottom: 0px solid #6b6b6b;
+}
+.jquery-accordion-menu ul li a i {
+    float: left;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    width: 34px;
+}
+.jquery-accordion-menu .submenu-indicator {
+    float: right;
+    font-size: 20px;
+    line-height: 19px;
+    position: absolute;
+    right: 0px;
+    transition: transform 0.3s linear 0s;
+}
+.jquery-accordion-menu ul ul.submenu .submenu-indicator {
+    line-height: 16px;
+}
+.jquery-accordion-menu .submenu-indicator-minus > .submenu-indicator {
+    transform: rotate(45deg);
+}
+.jquery-accordion-menu ul ul.submenu, .jquery-accordion-menu ul ul.submenu li ul.submenu {
+    display: none;
+    position: static;
+    width: 100%;
+}
+.jquery-accordion-menu ul ul.submenu li {
+    border-bottom: 2px solid #fff;
+    clear: both;
+    padding: 0 5px;
+    width: 100%;
+}
+
+.jquery-accordion-menu ul ul.submenu li:last-child {
+    border-bottom:none;
+}
+.jquery-accordion-menu ul ul.submenu li a {
+    background: #none;
+    border-top: medium none;
+    float: left;
+    font-size: 13px;
+    position: relative;
+    transition: border 0.2s linear 0s;
+    width: 100%;
+}
+.jquery-accordion-menu ul ul.submenu li:hover > a {
+    border-left-color: #414956;
+}
+.jquery-accordion-menu ul ul.submenu > li > a {
+    padding-left: 0px;
+}
+.jquery-accordion-menu ul ul.submenu > li > ul.submenu > li > a {
+    padding-left: 0px;
+}
+.jquery-accordion-menu ul ul.submenu > li > ul.submenu > li > ul.submenu > li > a {
+    padding-left: 0px;
+}
+.jquery-accordion-menu ul li .jquery-accordion-menu-label, .jquery-accordion-menu ul ul.submenu li .jquery-accordion-menu-label {
+    background: #6b6b6b;
+    border-radius: 100%;
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 800;
+    line-height: 18px;
+    min-width: 20px;
+    padding: 1px 2px 1px 1px;
+    position: absolute;
+    right: 18px;
+    text-align: center;
+    top: 14px;
+}
+.jquery-accordion-menu ul ul.submenu li .jquery-accordion-menu-label {
+    top: 12px;
+}
+.ink {
+    background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+    border-radius: 100%;
+    display: block;
+    position: absolute;
+    transform: scale(0);
+}
+.animate-ink {
+    animation: 0.5s linear 0s normal none 1 running ripple;
+}
+@keyframes ripple {
+100% {
+    opacity: 0;
+    transform: scale(2.5);
+}
+}
+@keyframes ripple {
+100% {
+    opacity: 0;
+    transform: scale(2.5);
+}
+}
+
+
